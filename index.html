@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printivo</title>
+    <!-- links -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+<script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+<link rel="stylesheet" href="/printivo.css">
+        <!-- end of links -->
+</head>
+<style>
+
+</style>
+<body id="biggy">
+                        <!-- 1st div -->
+                                    <nav id="naval2" style="background-color: rgb(247,246,244); height: 9.5vh; font-size: 15px; font-weight: 700; font-family: 'Times New Roman', Times, serif; color: rgb(56,74,98);" class=" p-3 navbar navbar-expand-lg mx-auto text-blue ">
+                                          
+                                              <ul class="navbar-nav " id="under">
+                                                <li class="nav-item "><a href="" class="nav-link mr-12" style="color: rgb(112,128,149);font-size:smaller; margin-left: 90px;">Corporate Pricing</a></li>
+                                                <li class="nav-item"><a href="" class="nav-link mr-12" style="color: rgb(112,128,149);font-size:smaller; margin-left: 30px;">Discover Stores</a></li>
+                                                <li class="nav-item"><a href="" class="nav-link" style="color: rgb(112,128,149);font-size:smaller; margin-left: 30px;">Track Orders</a></li>
+                                            </ul>
+
+                                            <ul class="navbar-nav" style="font-weight: 700; color: rgb(112,128,149);font-size: smaller; margin-left: 170px;">
+                                                <li class="nav-item"><span id="spanny">Need help? Call: </span><a href="#" id="anchor">+2348091084333,</a><a style="text-decoration: none;" href="#">+2348091085333</a></li>
+                                            </ul>
+                                          
+
+                <ul class="navbar-nav" id="whatsapp">
+                                               <li class="nav-item"><svg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M8.838 26.921l.484.285a13.272 13.272 0 006.74 1.838h.005c7.3 0 13.24-5.912 13.242-13.178a13.068 13.068 0 00-3.875-9.324 13.187 13.187 0 00-9.362-3.865c-7.305 0-13.245 5.912-13.248 13.178a13.097 13.097 0 002.024 7.013l.315.498-1.338 4.863 5.013-1.308zM0 31.996l2.26-8.216a15.769 15.769 0 01-2.126-7.926C.137 7.112 7.284 0 16.067 0a15.869 15.869 0 0111.27 4.65A15.723 15.723 0 0132 15.867c-.004 8.741-7.152 15.855-15.933 15.855h-.006c-2.667-.001-5.287-.667-7.614-1.93L0 31.996z' fill='#fff'/><path d='M.683 15.862a15.223 15.223 0 002.054 7.652L.554 31.445l8.154-2.128a15.436 15.436 0 007.35 1.863h.007c8.477 0 15.377-6.867 15.38-15.306a15.176 15.176 0 00-4.5-10.828 15.32 15.32 0 00-10.88-4.49C7.586.557.686 7.423.682 15.863zM16.064 31.18z' fill='url(#paint0_linear)'/><path d='M.134 15.858a15.77 15.77 0 002.127 7.927L0 32l8.446-2.204a15.98 15.98 0 007.614 1.93h.007c8.78 0 15.929-7.114 15.933-15.855a15.722 15.722 0 00-4.663-11.217 15.87 15.87 0 00-11.27-4.65C7.284.004.137 7.116.134 15.858zm5.03 7.512l-.316-.498a13.098 13.098 0 01-2.024-7.013C2.826 8.593 8.767 2.682 16.072 2.682a13.188 13.188 0 019.362 3.864 13.068 13.068 0 013.875 9.323c-.003 7.267-5.943 13.179-13.242 13.179h-.006a13.274 13.274 0 01-6.74-1.837l-.484-.286-5.012 1.308 1.338-4.863zm10.903 8.356z' fill='url(#paint1_linear)'/><path fill-rule='evenodd' clip-rule='evenodd' d='M12.085 9.229c-.298-.66-.612-.673-.896-.685-.232-.01-.498-.01-.763-.01s-.697.1-1.061.497C9 9.427 7.97 10.386 7.97 12.335c0 1.95 1.427 3.834 1.626 4.099.199.264 2.754 4.393 6.8 5.982 3.363 1.32 4.047 1.057 4.777.99.73-.065 2.356-.957 2.687-1.883.332-.925.332-1.718.233-1.884-.1-.165-.365-.264-.764-.462-.398-.198-2.355-1.157-2.72-1.29-.365-.132-.63-.198-.896.2-.265.396-1.028 1.288-1.26 1.552-.232.265-.464.298-.863.1-.398-.199-1.68-.617-3.201-1.967-1.184-1.05-1.982-2.347-2.215-2.744-.232-.396-.025-.611.175-.809.179-.177.398-.462.597-.694.199-.231.265-.396.398-.66.133-.265.066-.497-.033-.695-.1-.198-.873-2.158-1.227-2.941' fill='#fff'/><defs><linearGradient id='paint0_linear' x1='16' y1='31.442' x2='16' y2='.554' gradientUnits='userSpaceOnUse'><stop stop-color='#20B038'/><stop offset='1' stop-color='#60D66A'/></linearGradient><linearGradient id='paint1_linear' x1='16' y1='32.001' x2='16' y2='.005' gradientUnits='userSpaceOnUse'><stop stop-color='#F9F9F9'/><stop offset='1' stop-color='#fff'/>
+                                                </linearGradient></defs></svg></li>
+                    </ul>
+
+                                            <ul class="navbar-nav" style="font-weight: 500; margin-left: 70px;">
+                                                <li class="nav-item border  text-center mx-3  " style="height: 6vh; width: 100px; border-radius: 20px;"><svg class=" me-2 mt-1"  width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M16 2.667H0v10.666h16V2.666z' fill='#F0F0F0'/><path d='M5.333 2.667H0v10.666h5.333V2.666zM16 2.667h-5.333v10.666H16V2.666z' fill='#4A945A'/></svg><span class="">Nigeria</span></li>
+                                            </ul>
+                                    </nav>
+                                        <!-- 2nd div -->
+                                    
+<!-- 2nd nav -->
+<nav class="navbar navbar-expand-lg"  id="naval">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="#"><svg width='155' height='40' viewBox='0 0 155 40' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0)'><path d='M.206 40h6.73V29.175h.105c.344.511.805.933 1.345 1.23a5.264 5.264 0 001.865.93c.81.218 1.646.322 2.485.31a9.296 9.296 0 005.59-1.756 9.606 9.606 0 002.179-2.362c.725-.928 1.14-1.958 1.554-3.197.414-1.34.518-2.68.518-4.33s-.206-3.3-.725-4.64a9.21 9.21 0 00-1.966-3.401 7.671 7.671 0 00-2.909-2.267 9.188 9.188 0 00-3.416-.722 9.504 9.504 0 00-4.245.927 8.022 8.022 0 00-2.998 2.578h-.1l-.31-2.985H0c0 1.03.104 2.062.104 3.3.104 1.229.104 2.578.104 3.917V40H.206zm6.73-21.133v-.618c.105-.205.105-.412.207-.516.115-.66.361-1.289.725-1.851.38-.493.879-.883 1.45-1.134.62-.31 1.139-.517 1.864-.517a3.997 3.997 0 012.485.826 4.215 4.215 0 011.547 2.16c.343.996.522 2.04.529 3.094 0 1.12-.178 2.233-.53 3.298a4.744 4.744 0 01-1.655 2.061 3.997 3.997 0 01-2.485.826c-.725 0-1.235-.206-1.865-.413a7.125 7.125 0 01-1.345-1.134c-.31-.517-.621-1.031-.725-1.65-.104-.205-.104-.412-.207-.721v-3.71h.006zM26.818 31.24h6.835V19.382c0-.206.104-.516.104-.722a3.956 3.956 0 011.553-2.474c.824-.618 1.859-.927 3.106-.927h1.036c.206.103.518.103.829.205V9.072c-.31 0-.519-.104-.725-.104h-.725c-.519 0-1.14 0-1.656.206a4.99 4.99 0 00-1.656.825 4.828 4.828 0 00-1.45 1.444c-.519.516-.83 1.229-1.14 2.061h-.206l-.206-4.021h-5.803c-.014.654.02 1.309.104 1.958v19.798zm23.81 0V9.485h-6.83v21.752l6.83.002zm5.385 0h6.834V17.733c.006-.254.077-.503.207-.722.104-.412.414-.825.725-1.23.279-.414.675-.736 1.139-.926.414-.31.931-.413 1.554-.413.829 0 1.553.206 2.07.618a3.77 3.77 0 011.035 1.65c.31.72.415 1.546.415 2.473v12.063h6.73V18.351c0-1.649-.206-2.985-.62-4.123-.31-1.23-.932-2.165-1.554-2.986-.725-.721-1.554-1.34-2.485-1.649a7.954 7.954 0 00-3.106-.618 9.097 9.097 0 00-2.485.31c-.725.308-1.45.516-1.967.927-.526.32-1.013.7-1.45 1.134-.31.413-.62.825-.829 1.134h-.206l-.31-2.985h-5.902c.104.927.104 2.062.207 3.196v18.546l-.002.002zM82.82 5.465v4.021h-2.887v4.949h2.9v8.867a13.818 13.818 0 00.518 3.917c.26.946.721 1.825 1.353 2.576a7.7 7.7 0 002.175 1.34 9.155 9.155 0 002.998.517c.866-.014 1.73-.083 2.587-.208.725-.103 1.346-.205 1.764-.412V25.98a1.318 1.318 0 00-.62.103h-1.45c-.621 0-1.14-.103-1.555-.413-.414-.205-.724-.618-.828-1.229-.206-.52-.31-1.244-.31-2.172v-7.836h4.867V9.485h-4.866V3.609L82.84 5.465h-.02zm25.368 4.021l7.972 21.753h6.73l8.076-21.753h-7.133l-2.797 10.103c-.206.927-.414 1.756-.621 2.68a18.886 18.886 0 00-.516 2.569h-.207a22.846 22.846 0 00-.518-2.578c-.193-.905-.435-1.8-.725-2.68l-2.898-10.095H108.2l-.012.001zm35.722-.516c-1.764 0-3.417.206-4.762.825a9.802 9.802 0 00-3.727 2.27c-1.035 1.03-1.864 2.165-2.381 3.608a14.413 14.413 0 00-.829 4.845 12.81 12.81 0 00.829 4.64 11.028 11.028 0 002.381 3.512 10.238 10.238 0 003.624 2.269c1.346.516 2.9.721 4.452.721 1.139 0 2.381-.103 3.416-.412a12.445 12.445 0 003.21-1.34 10.308 10.308 0 002.485-2.269c.829-.927 1.346-2.062 1.764-3.3.435-1.372.647-2.804.628-4.242 0-1.65-.206-3.197-.829-4.536-.518-1.34-1.235-2.578-2.175-3.512a9.824 9.824 0 00-3.527-2.27c-1.346-.618-2.9-.825-4.556-.825l-.003.016zm-.207 4.845c.725 0 1.45.104 1.967.516.517.413 1.035.826 1.346 1.444.364.675.609 1.407.725 2.165a8.75 8.75 0 01.31 2.37c0 1.23-.206 2.475-.621 3.402a4.56 4.56 0 01-1.45 2.27c-.62.617-1.449.825-2.278.825a3.996 3.996 0 01-2.485-.826 5.435 5.435 0 01-1.45-2.37c-.415-.928-.519-2.062-.519-3.3.013-.794.082-1.586.207-2.37.206-.826.414-1.444.829-2.062a4.856 4.856 0 011.345-1.548 4.094 4.094 0 012.071-.516h.003z' fill='#000'/><path d='M98.468 9.588v5.36h6.936v-5.36h-6.936z' fill='#00AFEF'/><path d='M98.468 14.948v5.465h6.936v-5.465h-6.936z' fill='#EC268F'/><path d='M98.468 20.413v5.361h6.936v-5.361h-6.936z' fill='#FFF212'/><path d='M98.468 25.774v5.463h6.936v-5.463h-6.936zM101.988 0c-2.07 0-3.727 1.649-3.727 3.609a3.673 3.673 0 001.085 2.631 3.701 3.701 0 002.642 1.081c1.967 0 3.625-1.649 3.625-3.71a3.647 3.647 0 00-1.074-2.54A3.676 3.676 0 00101.988 0zM47.313 0c-2.07 0-3.727 1.649-3.727 3.609a3.674 3.674 0 001.085 2.631 3.705 3.705 0 002.642 1.081c1.967 0 3.625-1.649 3.625-3.71a3.644 3.644 0 00-1.074-2.54A3.676 3.676 0 0047.314 0z' fill='#000'/></g><defs><clipPath id='clip0'>
+          <rect width='155' height='40' fill='#fff'/></clipPath></defs></svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="justify-content: right;" >
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link  ms-5 " style="font-weight: 500;color: rgb(112,128,149); " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500;color: rgb(112,128,149);" href="#">All Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(112,128,149);" href="#">Become a Reseller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(112,128,149);" href="#">Cost Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(224, 111, 111);" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(112,128,149);" href="#">Create Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><svg width='32' height='32' viewBox='0 0 32 32' fill='none'
+                 xmlns='http://www.w3.org/2000/svg'><path d='M28.2202 10.7466L25.3669 19.76C25.1536 20.4 24.5936 20.8267 23.9269 20.8267H12.9136C12.2736 20.8267 11.6602 20.4266 11.4469 19.8399L7.26024 8.55999H4.8069C4.22023 8.55999 3.74023 8.08 3.74023 7.49333C3.74023 6.90666 4.22023 6.42666 4.8069 6.42666H7.98023C8.43357 6.42666 8.83357 6.71998 8.99357 7.14665L13.3402 18.6666H23.4736L25.7402 11.4666H13.1802C12.5936 11.4666 12.1136 10.9866 12.1136 10.4C12.1136 9.8133 12.5936 9.3333 13.1802 9.3333H27.2069C27.5536 9.3333 27.8736 9.51996 28.0602 9.78662C28.2736 10.0533 28.3269 10.4266 28.2202 10.7466ZM13.4469 22.2133C12.9936 22.2133 12.5402 22.4 12.2202 22.72C11.9002 23.04 11.7136 23.4933 11.7136 23.9466C11.7136 24.4 11.9002 24.8533 12.2202 25.1733C12.5402 25.4933 12.9936 25.68 13.4469 25.68C13.9002 25.68 14.3536 25.4933 14.6736 25.1733C14.9936 24.8533 15.1802 24.4 15.1802 23.9466C15.1802 23.4933 14.9936 23.04 14.6736 22.72C14.3536 22.4 13.9002 22.2133 13.4469 22.2133ZM23.0202 22.2133C22.5669 22.2133 22.1136 22.4 21.7936 22.72C21.4736 23.04 21.2869 23.4933 21.2869 23.9466C21.2869 24.4 21.4736 24.8533 21.7936 25.1733C22.1136 25.4933 22.5669 25.68 23.0202 25.68C23.4736 25.68 23.9269 25.4933 24.2469 25.1733C24.5669 24.8533 24.7536 24.4 24.7536 23.9466C24.7536 23.4933 24.5669 23.04 24.2469 22.72C23.9269 22.4 23.4736 22.2133 23.0202 22.2133Z' fill='#384A62'/></svg>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar  navbar-expand-lg" id="navbar" style="z-index: 10; ">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#"><svg width='155' height='40' viewBox='0 0 155 40' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0)'><path d='M.206 40h6.73V29.175h.105c.344.511.805.933 1.345 1.23a5.264 5.264 0 001.865.93c.81.218 1.646.322 2.485.31a9.296 9.296 0 005.59-1.756 9.606 9.606 0 002.179-2.362c.725-.928 1.14-1.958 1.554-3.197.414-1.34.518-2.68.518-4.33s-.206-3.3-.725-4.64a9.21 9.21 0 00-1.966-3.401 7.671 7.671 0 00-2.909-2.267 9.188 9.188 0 00-3.416-.722 9.504 9.504 0 00-4.245.927 8.022 8.022 0 00-2.998 2.578h-.1l-.31-2.985H0c0 1.03.104 2.062.104 3.3.104 1.229.104 2.578.104 3.917V40H.206zm6.73-21.133v-.618c.105-.205.105-.412.207-.516.115-.66.361-1.289.725-1.851.38-.493.879-.883 1.45-1.134.62-.31 1.139-.517 1.864-.517a3.997 3.997 0 012.485.826 4.215 4.215 0 011.547 2.16c.343.996.522 2.04.529 3.094 0 1.12-.178 2.233-.53 3.298a4.744 4.744 0 01-1.655 2.061 3.997 3.997 0 01-2.485.826c-.725 0-1.235-.206-1.865-.413a7.125 7.125 0 01-1.345-1.134c-.31-.517-.621-1.031-.725-1.65-.104-.205-.104-.412-.207-.721v-3.71h.006zM26.818 31.24h6.835V19.382c0-.206.104-.516.104-.722a3.956 3.956 0 011.553-2.474c.824-.618 1.859-.927 3.106-.927h1.036c.206.103.518.103.829.205V9.072c-.31 0-.519-.104-.725-.104h-.725c-.519 0-1.14 0-1.656.206a4.99 4.99 0 00-1.656.825 4.828 4.828 0 00-1.45 1.444c-.519.516-.83 1.229-1.14 2.061h-.206l-.206-4.021h-5.803c-.014.654.02 1.309.104 1.958v19.798zm23.81 0V9.485h-6.83v21.752l6.83.002zm5.385 0h6.834V17.733c.006-.254.077-.503.207-.722.104-.412.414-.825.725-1.23.279-.414.675-.736 1.139-.926.414-.31.931-.413 1.554-.413.829 0 1.553.206 2.07.618a3.77 3.77 0 011.035 1.65c.31.72.415 1.546.415 2.473v12.063h6.73V18.351c0-1.649-.206-2.985-.62-4.123-.31-1.23-.932-2.165-1.554-2.986-.725-.721-1.554-1.34-2.485-1.649a7.954 7.954 0 00-3.106-.618 9.097 9.097 0 00-2.485.31c-.725.308-1.45.516-1.967.927-.526.32-1.013.7-1.45 1.134-.31.413-.62.825-.829 1.134h-.206l-.31-2.985h-5.902c.104.927.104 2.062.207 3.196v18.546l-.002.002zM82.82 5.465v4.021h-2.887v4.949h2.9v8.867a13.818 13.818 0 00.518 3.917c.26.946.721 1.825 1.353 2.576a7.7 7.7 0 002.175 1.34 9.155 9.155 0 002.998.517c.866-.014 1.73-.083 2.587-.208.725-.103 1.346-.205 1.764-.412V25.98a1.318 1.318 0 00-.62.103h-1.45c-.621 0-1.14-.103-1.555-.413-.414-.205-.724-.618-.828-1.229-.206-.52-.31-1.244-.31-2.172v-7.836h4.867V9.485h-4.866V3.609L82.84 5.465h-.02zm25.368 4.021l7.972 21.753h6.73l8.076-21.753h-7.133l-2.797 10.103c-.206.927-.414 1.756-.621 2.68a18.886 18.886 0 00-.516 2.569h-.207a22.846 22.846 0 00-.518-2.578c-.193-.905-.435-1.8-.725-2.68l-2.898-10.095H108.2l-.012.001zm35.722-.516c-1.764 0-3.417.206-4.762.825a9.802 9.802 0 00-3.727 2.27c-1.035 1.03-1.864 2.165-2.381 3.608a14.413 14.413 0 00-.829 4.845 12.81 12.81 0 00.829 4.64 11.028 11.028 0 002.381 3.512 10.238 10.238 0 003.624 2.269c1.346.516 2.9.721 4.452.721 1.139 0 2.381-.103 3.416-.412a12.445 12.445 0 003.21-1.34 10.308 10.308 0 002.485-2.269c.829-.927 1.346-2.062 1.764-3.3.435-1.372.647-2.804.628-4.242 0-1.65-.206-3.197-.829-4.536-.518-1.34-1.235-2.578-2.175-3.512a9.824 9.824 0 00-3.527-2.27c-1.346-.618-2.9-.825-4.556-.825l-.003.016zm-.207 4.845c.725 0 1.45.104 1.967.516.517.413 1.035.826 1.346 1.444.364.675.609 1.407.725 2.165a8.75 8.75 0 01.31 2.37c0 1.23-.206 2.475-.621 3.402a4.56 4.56 0 01-1.45 2.27c-.62.617-1.449.825-2.278.825a3.996 3.996 0 01-2.485-.826 5.435 5.435 0 01-1.45-2.37c-.415-.928-.519-2.062-.519-3.3.013-.794.082-1.586.207-2.37.206-.826.414-1.444.829-2.062a4.856 4.856 0 011.345-1.548 4.094 4.094 0 012.071-.516h.003z' fill='#000'/><path d='M98.468 9.588v5.36h6.936v-5.36h-6.936z' fill='#00AFEF'/><path d='M98.468 14.948v5.465h6.936v-5.465h-6.936z' fill='#EC268F'/><path d='M98.468 20.413v5.361h6.936v-5.361h-6.936z' fill='#FFF212'/><path d='M98.468 25.774v5.463h6.936v-5.463h-6.936zM101.988 0c-2.07 0-3.727 1.649-3.727 3.609a3.673 3.673 0 001.085 2.631 3.701 3.701 0 002.642 1.081c1.967 0 3.625-1.649 3.625-3.71a3.647 3.647 0 00-1.074-2.54A3.676 3.676 0 00101.988 0zM47.313 0c-2.07 0-3.727 1.649-3.727 3.609a3.674 3.674 0 001.085 2.631 3.705 3.705 0 002.642 1.081c1.967 0 3.625-1.649 3.625-3.71a3.644 3.644 0 00-1.074-2.54A3.676 3.676 0 0047.314 0z' fill='#000'/></g><defs><clipPath id='clip0'>
+          <rect width='155' height='40' fill='#fff'/></clipPath></defs></svg></a>
+          <div id="show" style="margin-left: 60px;">
+            <a class="nav-link " style="font-weight: 500; color: rgb(216, 128, 128);" href="#">Sign in</a>
+            <a class="nav-link" href="#"><svg width='32' height='32' viewBox='0 0 32 32' fill='none'
+              xmlns='http://www.w3.org/2000/svg'><path d='M28.2202 10.7466L25.3669 19.76C25.1536 20.4 24.5936 20.8267 23.9269 20.8267H12.9136C12.2736 20.8267 11.6602 20.4266 11.4469 19.8399L7.26024 8.55999H4.8069C4.22023 8.55999 3.74023 8.08 3.74023 7.49333C3.74023 6.90666 4.22023 6.42666 4.8069 6.42666H7.98023C8.43357 6.42666 8.83357 6.71998 8.99357 7.14665L13.3402 18.6666H23.4736L25.7402 11.4666H13.1802C12.5936 11.4666 12.1136 10.9866 12.1136 10.4C12.1136 9.8133 12.5936 9.3333 13.1802 9.3333H27.2069C27.5536 9.3333 27.8736 9.51996 28.0602 9.78662C28.2736 10.0533 28.3269 10.4266 28.2202 10.7466ZM13.4469 22.2133C12.9936 22.2133 12.5402 22.4 12.2202 22.72C11.9002 23.04 11.7136 23.4933 11.7136 23.9466C11.7136 24.4 11.9002 24.8533 12.2202 25.1733C12.5402 25.4933 12.9936 25.68 13.4469 25.68C13.9002 25.68 14.3536 25.4933 14.6736 25.1733C14.9936 24.8533 15.1802 24.4 15.1802 23.9466C15.1802 23.4933 14.9936 23.04 14.6736 22.72C14.3536 22.4 13.9002 22.2133 13.4469 22.2133ZM23.0202 22.2133C22.5669 22.2133 22.1136 22.4 21.7936 22.72C21.4736 23.04 21.2869 23.4933 21.2869 23.9466C21.2869 24.4 21.4736 24.8533 21.7936 25.1733C22.1136 25.4933 22.5669 25.68 23.0202 25.68C23.4736 25.68 23.9269 25.4933 24.2469 25.1733C24.5669 24.8533 24.7536 24.4 24.7536 23.9466C24.7536 23.4933 24.5669 23.04 24.2469 22.72C23.9269 22.4 23.4736 22.2133 23.0202 22.2133Z' fill='#384A62'/></svg>
+         </a>
+         
+      
+      <div class="collapse navbar-collapse" style="justify-content: right;" id="navbarNavDropdown" >
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link  " style="font-weight: 500; color: rgb(56,74,98);" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(56,74,98);" href="#">All Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(56,74,98);" href="#">Become a Reseller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(56,74,98);" href="#">Cost Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(216, 128, 128);" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " style="font-weight: 500; color: rgb(56,74,98);" href="#">Create Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><svg width='32' height='32' viewBox='0 0 32 32' fill='none'
+                 xmlns='http://www.w3.org/2000/svg'><path d='M28.2202 10.7466L25.3669 19.76C25.1536 20.4 24.5936 20.8267 23.9269 20.8267H12.9136C12.2736 20.8267 11.6602 20.4266 11.4469 19.8399L7.26024 8.55999H4.8069C4.22023 8.55999 3.74023 8.08 3.74023 7.49333C3.74023 6.90666 4.22023 6.42666 4.8069 6.42666H7.98023C8.43357 6.42666 8.83357 6.71998 8.99357 7.14665L13.3402 18.6666H23.4736L25.7402 11.4666H13.1802C12.5936 11.4666 12.1136 10.9866 12.1136 10.4C12.1136 9.8133 12.5936 9.3333 13.1802 9.3333H27.2069C27.5536 9.3333 27.8736 9.51996 28.0602 9.78662C28.2736 10.0533 28.3269 10.4266 28.2202 10.7466ZM13.4469 22.2133C12.9936 22.2133 12.5402 22.4 12.2202 22.72C11.9002 23.04 11.7136 23.4933 11.7136 23.9466C11.7136 24.4 11.9002 24.8533 12.2202 25.1733C12.5402 25.4933 12.9936 25.68 13.4469 25.68C13.9002 25.68 14.3536 25.4933 14.6736 25.1733C14.9936 24.8533 15.1802 24.4 15.1802 23.9466C15.1802 23.4933 14.9936 23.04 14.6736 22.72C14.3536 22.4 13.9002 22.2133 13.4469 22.2133ZM23.0202 22.2133C22.5669 22.2133 22.1136 22.4 21.7936 22.72C21.4736 23.04 21.2869 23.4933 21.2869 23.9466C21.2869 24.4 21.4736 24.8533 21.7936 25.1733C22.1136 25.4933 22.5669 25.68 23.0202 25.68C23.4736 25.68 23.9269 25.4933 24.2469 25.1733C24.5669 24.8533 24.7536 24.4 24.7536 23.9466C24.7536 23.4933 24.5669 23.04 24.2469 22.72C23.9269 22.4 23.4736 22.2133 23.0202 22.2133Z' fill='#384A62'/></svg>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    <br>
+    <div id="stylee">
+     
+      <!-- <button class="btn text-white  fw-bold ms-3 mt-4 navbar-toggler" style="font-family: sans-serif; font-size: 20px; width: 19%;background-color: rgb(231, 123, 123); " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">Menu</span>
+      </button> -->
+    <div class="input-icons ms-3 mt-4">
+      <i class="fa fa-search icon"></i>
+      <input type="text" id="inpute" class=" border border-light" placeholder="Quick Search" >
+    </div>
+   
+    </div>
+  </nav>
+
+  <!--2nd nav end -->
+  <div id="style" style=" background-color: rgb(236,232,217);">
+     
+    <button class="btn text-dark  fw-bold ms-3" style="font-family: sans-serif; height: 50px; font-size: 15px; width: 17%;background-color: rgb(255, 255, 255); ">Menu</button>
+  
+  </div>
+  <!--ist section  -->
+  <section class="expand-lg " id="sect">
+            <div class="div1"  id="quality">
+              
+                <div class="  mt-5" id="elite">
+                        <span class="text ms-5" id="qua" style="color: rgb(56,74,98);">Quality Prints</span>
+                        <p class="text ms-5" style="color: grey; font-weight: 500; font-size: 25px;">Shipped to your doorstep</p><br>
+                        <p class="text ms-5" style="color: rgb(91, 90, 110);  font-weight: 700;">What would you like to print today?</p>
+                        <div class="input" id="diva">
+                            <input type="text" placeholder="Search for Business cards, T-shirts,Mugs,etc" class="input ms-5   p-5" id="inpp">
+                            <button style="background-color: white; border: thin solid white; border-radius: 0 3px 3px 0;" ><svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M11 4a7 7 0 100 14 7 7 0 000-14zm-9 7a9 9 0 1118 0 9 9 0 01-18 0z' fill='#384A62'/><path fill-rule='evenodd' clip-rule='evenodd' d='M15.943 15.943a1 1 0 011.414 0l4.35 4.35a1 1 0 11-1.414 1.414l-4.35-4.35a1 1 0 010-1.414z' fill='#384A62'/></svg></button>
+                        </div>
+                </div>
+                <div class="w-50  mt-5 ">
+                        <img src="/images/Card3_n9kqin.png" alt="" width="66%" class="img " id="img2" style="float: right;">
+                </div>
+            </div>
+  </section>
+
+  <!-- end of 1st section -->
+
+
+  <!-- popular products one -->
+  <section class="section mt-5 p-3" id="mysect">
+        <div  class="div row row-cols-3 row-cols-md-3 g-4" style="display: flex; box-sizing: content-box; " >
+        <h3 class="text text-xl col ms-5  " id="pop">Popular Products</h3>
+   <span >
+    <a href="#" class="link col text-sm"  id="see">See All Products</a>
+   </span>
+    </div>
+        
+  </section>
+           <!-- end of pp1 -->
+
+
+           <!-- pp2 cards-->
+  <section style="z-index: -10; font-family: sans-serif; ">
+    <div class="container-fluid p-5 container-md-fluid">
+      <div class="row row-cols-1 row-cols-md-4  g-4">
+          <div class="col" >
+              <div class="card " id="coll">
+                  <img src="images/1440201227_two-sided-business-cards-by-printivo.png" alt="" style="height: 40vh;"
+                  class="card-img-top "  >
+                  <div class="card-body">
+                  <p class="card-text">
+                      <p><b>Two-sided Buisness Cards</b></p>
+                      <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                      <p><b><span class="fs-5">₦7,500</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                      <a href="">
+                        <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                          Browse Two sided Bu...
+                           <i class="arrow right"></i>
+                        </button>
+                      </a>
+                  </p>
+              </div>
+              </div>
+              
+          </div>
+          <div class="col">
+              <div class="card" id="coll">
+                  <img src="images/1572522725_flyer-1sided.png" alt="" style="height: 40vh;"
+                  class="card-img-top"
+                  >
+                  <div class="card-body">
+                    <p class="card-text">
+                        <p><b>A5 Flyers(Single Sided)</b></p>
+                        <p style="color: rgb(112,128,149);"class="para">STARTING AT</p>
+                        <p><b><span class="fs-5">₦15,400</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                        
+                        <a href="">
+                          <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                            Browse A5 flyers(S...
+                             <i class="arrow right"></i>
+                          </button>
+                        </a>
+                    </p>
+              </div>
+              </div>
+              
+          </div>
+          <div class="col">
+              <div class="card" id="coll">
+                  <img src="/images/1661456358_social-media--16.png" alt="" style="height: 40vh;"
+                  class="card-img-top"
+                  >
+                  <div class="card-body">
+                    <p class="card-text">
+                        <p><b>Simple Mugs</b></p>
+                        <p style="color: rgb(112,128,149);"class="para">STARTING AT</p>
+                        <p><b><span class="fs-5">₦2,750</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                        
+                        <a href="">
+                          <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                            Browse Simple Mugs
+                             <i class="arrow right"></i>
+                          </button>
+                        </a>
+                    </p>
+              </div>
+              </div>
+              
+          </div>
+          <div class="col">
+              <div class="card" id="coll">
+                  <img src="/images/1439790190_postcard.jpg" alt="" style="height: 40vh;"
+                  class="card-img-top"
+                  >
+                  <div class="card-body">
+                    <p class="card-text">
+                        <p><b>Postcards(A6)</b></p>
+                        <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                        <p><b><span class="fs-5">₦11,220</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 50</span></b></p>
+                        
+                        <a href="">
+                          <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                            Browse Postcards(A...
+                             <i class="arrow right"></i>
+                          </button>
+                        </a>
+                    </p>
+              </div>
+      </div>
+
+
+  </div>        
+
+        <div class="col">
+            <div class="card" id="coll">
+                <img src="/images/1446183154_big rollup banner.png" alt="" style="height: 40vh;"
+                class="card-img-top"
+                >
+                <div class="card-body">
+                  <p class="card-text">
+                      <p><b>Roll Up Banners (Big Base)</b></p>
+                      <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                      <p><b><span class="fs-5">₦27,600</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 1</span></b></p>
+                      
+                      <a href="">
+                        <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                          Browse Roll Up Bann...
+                           <i class="arrow right"></i>
+                        </button>
+                      </a>
+                  </p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="col">
+            <div class="card" id="coll">
+                <img src="/images/1572259118_product-5-(1).png" alt="" style="height: 40vh;"
+                class="card-img-top"
+                >
+                <div class="card-body">
+                  <p class="card-text">
+                      <p><b>A2 Posters</b></p>
+                      <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                      <p><b><span class="fs-5">₦36,000</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                      
+                      <a href="">
+                        <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                          Browse A2 Posters
+                           <i class="arrow right"></i>
+                        </button>
+                      </a>
+                  </p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="col">
+            <div class="card" id="coll" >
+                <img src="/images/1473167305_trifold-brochure-printing.png" alt="" style="height: 40vh;"
+                class="card-img-top"
+                >
+                <div class="card-body">
+                  <p class="card-text">
+                      <p><b>Trifold Brochures</b></p>
+                      <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                      <p><b><span class="fs-5">₦24,000</b><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                      
+                      <a href="">
+                        <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                          Browse Round Stick(S...
+                           <i class="arrow right"></i>
+                        </button>
+                      </a>
+                  </p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="col">
+            <div class="card" id="coll">
+                <img src="/images/1456215784_12.png" alt="" style="height: 40vh;"
+                class="card-img-top"
+                >
+                <div class="card-body">
+                  <p class="card-text">
+                      <p><b>Landscape ID Cards</b></p>
+                      <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                      <p><b><span class="fs-5">₦1,400</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                      
+                      <a href="">
+                        <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                          Browse Trifold Broc...
+                           <i class="arrow right"></i>
+                        </button>
+                      </a>
+                  </p>
+            </div>
+            </div>
+            
+        </div>
+  
+</div>
+
+
+       
+
+ 
+  <div class="row row-cols-1 row-cols-md-4 g-4 mt-1">
+      <div class="col ">
+          <div class="card" id="coll">
+              <img src="/images/1485151940_White-tshirt.png" alt="" style="height: 40vh;"
+              class="card-img-top"
+              >
+              <div class="card-body">
+                <p class="card-text">
+                    <p><b>Off White T-Shirts</b></p>
+                    <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                    <p><b><span class="fs-5">₦3,499</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 1</span></b></p>
+                    
+                    <a href="">
+                      <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                        Browse Off White T-...
+                         <i class="arrow right"></i>
+                      </button>
+                    </a>
+                </p>
+          </div>
+          </div>
+          
+      </div>
+      <div class="col">
+          <div class="card" id="coll">
+              <img src="/images/1572258123_product-3-(1).png" alt="" style="height: 40vh;"
+              class="card-img-top"
+              >
+              <div class="card-body">
+                <p class="card-text">
+                    <p><b>A4 Branded Paper Bags</b></p>
+                    <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                    <p><b><span class="fs-5">₦53,000</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                    
+                    <a href="">
+                      <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                        Browse A4 Branded P...
+                         <i class="arrow right"></i>
+                      </button>
+                    </a>
+                </p>
+          </div>
+          </div>
+          
+      </div>
+      <div class="col">
+          <div class="card" id="coll">
+              <img src="/images/1607424257_63f28e7a-da1d-4685-a297-964e186a2170.jpeg" alt="" style="height: 40vh;"
+              class="card-img-top"
+              >
+              <div class="card-body">
+                <p class="card-text">
+                    <p><b>A4 Courier Bags</b></p>
+                    <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                    <p><b><span class="fs-5">₦16,000</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                    
+                    <a href="">
+                      <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                        Browse A4 Courier B....
+                         <i class="arrow right"></i>
+                      </button>
+                    </a>
+                </p>
+          </div>
+          </div>
+          
+      </div>
+      </div>
+    
+  </section>
+
+      <!-- end of pp2 card-->
+
+    <!-- pc and cards -->
+  <section style="z-index: -10; font-family: sans-serif; ">
+
+      <div style="display: flex;" class="row container-fluid container-md-fluid p-3">
+        <h3 class="text col-md-5 col-5" id="first">Popular Categoties</h3>
+        <p class="text col-md-5 col-5 mt-2 ms-5"> <a href="#" class="link" id="second">See All Categories</a></p>
+      </div>
+
+
+    <div class="container-fluid p-5 container-md-fluid">
+      <div class="row row-cols-1 row-cols-md-4 g-3">
+          <div class="col" >
+              <div class="card " id="cols">
+                  <img src="images/1473159158_Christmas-card-for-this-wonderful-season.png" alt="" style="height: 40vh;"
+                  class="card-img-top"
+                  >
+                  <div class="card-body">
+                  <p class="card-text">
+                      <p><b>Greeting Cards</b></p>
+                      <p style="color: rgb(112,128,149);" class="para">STARTING AT</p>
+                      <p><b><span class="fs-5">₦15,000</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 50</span></b></p>
+                      <a href="">
+                        <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                          Browse Greeting Car...
+                           <i class="arrow right"></i>
+                        </button>
+                      </a>
+                  </p>
+              </div>
+              </div>
+              
+          </div>
+          <div class="col">
+              <div class="card" id="coll">
+                  <img src="images/1473165427_stickers.png" alt="" style="height: 40vh;"
+                  class="card-img-top"
+                  >
+                  <div class="card-body">
+                    <p class="card-text">
+                        <p><b>Stickers</b></p>
+                        <p style="color: rgb(112,128,149);"class="para">STARTING AT</p>
+                        <p><b><span class="fs-5">₦4,949</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 75</span></b></p>
+                        
+                        <a href="">
+                          <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                            Browse Stickers...
+                             <i class="arrow right"></i>
+                          </button>
+                        </a>
+                    </p>
+              </div>
+              </div>
+              
+          </div>
+          <div class="col">
+              <div class="card" id="coll">
+                  <img src="/images/1656003107_social-media--15.png" alt="" style="height: 40vh;"
+                  class="card-img-top"
+                  >
+                  <div class="card-body">
+                    <p class="card-text">
+                        <p><b>Round Stickers (3.5" Diameter)</b></p>
+                        <p style="color: rgb(112,128,149);"class="para">STARTING AT</p>
+                        <p><b><span class="fs-5">₦9,900</span><span style="color: rgb(112,128,149); font-size: 12px;"> per 100</span></b></p>
+                        
+                        <a href="">
+                          <button class="btn text-white btnWrapp btn btn_default" style="background-color: rgb(215,127,129); ">
+                            Browse Round Stic...
+                             <i class="arrow right"></i>
+                          </button>
+                        </a>
+                    </p>
+              </div>
+              </div>
+              
+
+  </section>
+    <!-- end of pc and cards -->
+ 
+
+        <section>
+          <div class="text ms-5" id="num1">Nigeria's No.1 online print shop<span role="img" aria-label="crown">👑</span></div>
+          <div class="text ms-5" id="num2">Our print services and solutions are trusted by these brands and <br> over 15,000 other businesses in Nigeria.</div>
+        </section>
+        <div class="section ms-5" id="mage"><img src="/images/Group_61_h8vxko.png" alt="" class="img-fluid mt-4" id="mager"></div>
+
+
+              <section  class="mt-5 p-5  " id="what">
+            <div class="section "> 
+              <h3 class="text ms-5" id="cust">What Customers Say About Us 🙌🏾</h3>
+            </div>
+
+            <div class="container-fluid p-5 container-md-fluid">
+              <div class="row row-cols-1 row-cols-md-3 g-2">
+                <div class="col"  >
+                  <div class="card p-3" id="colls"> 
+                  <div style="display: flex;">
+                    <img src="/images/download (5).svg" alt="" class="card-img-top p-1" style="width: 20px; border: thin solid rgb(244, 242, 234); border-radius: 50%; ">
+                    <span style="color: rgb(80, 102, 131); font-size: small; font-weight: 600;" class="ms-3 ">Amina Ebele <a href="#" >@DeliciousAmina</a></span>
+                  </div>
+                    
+                      <div class="card-body">
+                      <p class="card-text my-1" style="font-family: sans-serif;">
+                        I am now the unofficial <a href="#" style="text-transform: none;">@Printivo</a> ambassador. What these guys just pulled to ensure I got my menu cards today is stunning!
+                      </p>
+                  </div>
+                  </div>
+                  
+              </div>
+              <div class="col"  >
+                <div class="card p-3" id="colls">
+                <div style="display: flex;">
+                  <img src="/images/download (5).svg" alt="" class="card-img-top p-1" style="width: 20px; border: thin solid rgb(244, 242, 234); border-radius: 50%; ">
+                  <span style="color: rgb(80, 102, 131); font-size: small; font-weight: 600;" class="ms-3 ">Oluwatosin<a href="#" >@tosingirlfx</a></span>
+                </div>
+                  
+                    <div class="card-body">
+                    <p class="card-text my-3  mb-3" style="font-family: sans-serif;">
+                      <a href="#" style="text-transform: none;">@Printivo</a>  delivered my mugs in 24hrs. Thank you so much! It's nice doing business with you. More to come.
+                    </p>
+                </div>
+                </div>
+                
+            </div>
+            <div class="col"  >
+              <div class="card p-3" id="colls">
+              <div style="display: flex;">
+                <img src="/images/download (5).svg" alt="" class="card-img-top p-1" style="width: 20px; border: thin solid rgb(244, 242, 234); border-radius: 50%; ">
+                <span style="color: rgb(80, 102, 131); font-size: small; font-weight: 600;" class="ms-3 ">Oluwatosin<a href="#" >@olgablark</a></span>
+              </div>
+                
+                  <div class="card-body ">
+                  <p class="card-text my-1 mb-1" style="font-family: sans-serif;">
+                    These guys <a href="#" style="text-transform: none;">@Printivo</a> are really awesome and affordable. Excellent customer service and delivery too. Thank you.
+                  </p>
+              </div>
+              </div>
+              
+          </div>
+              </div>
+              </div>
+              </section>
+          
+
+         
+              
+
+              <!-- section  3 -->
+             
+
+              <section class="mt-5 p-5  mx-auto" id="select">
+                <h3 id="test" class="ms-5">You can count on us for:</h3>
+                <div class="container-fluid p-5 container-md-fluid">
+                  <div class="row">
+                    <div class="col-md-4" id="column">
+                        <div style="display: flex;">
+                        <img src="/images/download (6).svg" alt="" class="img-fluid mb-5">
+                          <p class="text">
+                            <span ><b>Fast Turnaround Within Days</b> <br><span>Your order gets to you within 3-7 working days via DHL or our very <br> own Printivo Direct.</span></span><br>
+                            
+                          </p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4" id="column">
+                      <div style="display: flex;">
+                      <img src="/images/download (7).svg" alt="" class="img-fluid mb-5">
+                        <p class="text">
+                          <span ><b>100% Top Quality</b> <br><span>Only the finest materials, machines <br> and people will be involved in <br> fulfilling your order.</span></span><br>
+                          
+                        </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4" id="column">
+                    <div style="display: flex;">
+                    <img src="/images/download (8).svg" alt="" class="img-fluid mb-5">
+                      <p class="text">
+                        <span ><b>Affordable Services</b> <br><span>All products are adequately priced <br> to ensure you get value for your <br> money at all times.</span></span><br>
+                        
+                      </p>
+                  </div>
+                </div>
+                    </div>
+                  </div>
+              </div>
+              </section>
+              <!-- end of section3 -->
+
+              <!-- sect -->
+              <section class="p-5" id="tech">
+                  <div class="mt-5">
+                    <h3 style="color: rgb(56, 74, 98);">Our amazing work got noticed by:</h3>
+                    <div class="row mt-5  row-cols-2  row-cols-md-5 justify-content-center g-4">
+                      <div class="col-md-2" id="techh">
+                        <div>
+                          <div>
+                            <img src="/images/download (10).svg" alt="techcrunch" id="image2">
+                            <p class="text mt-3 text-black"><b><a href="#">Read the articles here</a></b></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col" >
+                        <div>
+                          <div>
+                            <img src="/images/download (11).svg" alt="forbes" class="p-1"  id="image1">
+                            <p class="text mt-2 text-black"><b><a href="#">Read the articles here</a></b></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div>
+                          <div>
+                            <img src="/images/Techpoint_Logo_ucyvgg.png" alt="techpoint" class="" id="image3">
+                            <p class="text mt-1 text-black "><b><a href="#">Read the articles here</a></b></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div>
+                          <div>
+                            <img src="/images/download (13).svg" alt="techcabal"  id="image4">
+                            <p class="text mt-1 text-black"><b><a href="#">Read the articles here</a></b></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col" id="colar">
+                        <div>
+                          <div>
+                            <img src="/images/download (12).svg" alt="cnn" class="" style="margin-top: 1px;"  id="image5">
+                            <p class="text mt-2 text-black"><b><a href="#">Read the articles here</a></b></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </section>
+
+              
+
+              <section class="expand-lg p-5" id="print">
+                    <div class="row row-cols-1 row-cols-md-4 g-3 " style="color: rgb(233, 224, 224);">
+                      <div class="col " id="listed">
+                        <ul class="ms-5">
+                          <p><li style="list-style: none;"><b>Printivo</b></li></p>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li style="list-style: none;"><b>About Us</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li style="list-style: none;"><b>Contact</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li style="list-style: none;"><b>Track Order</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li style="list-style: none;"><b>Printivo Promise</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li style="list-style: none;"><b>Printivo Blog</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li style="list-style: none;"><b>Career</b></li></a>
+                          <!-- <a href="#" style="text-decoration: none;"><li><b>bold</b></li></a> -->
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <ul style="list-style: none;">
+                          <p><li><b>Help and Information</b></li></p>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Paper Quality</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Privacy Policy</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Terms and Condition</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Font Licenses</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Shipping and Delivery</b></li></a>
+                          <!-- <a href="#" style="text-decoration: none;"><li><b>Career</b></li></a> -->
+                          <!-- <a href="#" style="text-decoration: none;"><li><b>bold</b></li></a> -->
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <ul style="list-style: none;">
+                          <p><li><b>Make Money</b></li></p>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Refer a friend and earn N1,000</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Become a Reseller</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Sell your Deigns</b></li></a>
+                          <a href="#" style="text-decoration: none;" class="link text-white"><li><b>Merch Store</b></li></a>
+                          <!-- <a href="#" style="text-decoration: none;"><li><b>Printivo Blog</b></li></a>
+                          <a href="#" style="text-decoration: none;"><li><b>Career</b></li></a> -->
+                          <!-- <a href="#" style="text-decoration: none;"><li><b>bold</b></li></a> -->
+                        </ul>
+                      </div>
+                      <div class="col" >
+                        <ul style="list-style: none;">
+                          <p><li><b>Follow Us</b></li></p>
+                          <!-- <a href="#" style="text-decoration: none;"><li><b>Follow Us</b></li></a> -->
+                          <a href="#" style="text-decoration: none;"><li><img src="" alt=""></li></a>
+                          <a href="#" style="text-decoration: none; color: rgb(233, 224, 224);" class="link " ><li><b>Accepted Payments</b></li></a>
+                          <a href="#" style="text-decoration: none;"><li><img src="/images/payment.png" alt="" class="img-fluid w-75"></li></a>
+                          <a href="#" style="text-decoration: none;color: rgb(233, 224, 224);" class="link " ><li><b>Delivery</b></li></a>
+                          <a href="#" style="text-decoration: none;"><li><img src="/images/shipping.png" alt="img-fluid " width="170" ></li></a>
+                          <!-- <a href="#" style="text-decoration: none;"><li><b>bold</b></li></a> -->
+                        </ul>
+                      </div>
+                    </div>
+              </section>
+
+              <footer>
+                <div class="text-center p-4" style="background-color: rgb(233, 224, 224);">
+                  <p class="justify-content-center" style="color: rgb(91, 90, 110);">Copyright © 2021 Printivo. All rights reserved.</p>
+                </div>
+              </footer>
+              <!-- end of sect -->
+  <!-- javascript -->
+  <script>
+      window.onscroll = function(){scrollFunction()};
+      function scrollFunction(){
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+          {
+              document.getElementById("navbar").style.top = "0";
+          } else {
+              document.getElementById("navbar").style.top = "-9000px";
+          }
+      }
+
+
+  </script>
+<!-- end of javascript -->
+  
+</body>
+</html>
